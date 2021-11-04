@@ -1,1 +1,1 @@
-Myshop projet
+Myshop projet Epitech
