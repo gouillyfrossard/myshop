@@ -12,7 +12,8 @@ it to best suits your needs.
 You must keep a strict coherence of error management, ergonomics, accessibility, and
 design on each step of the subject.
 Put all your CSS in an extra CSS file. No style attribute in the HTML will be tolerated!
-1
+
+
 Step 1: Sign-up/Sign-in
 Create a page named “index.php”. This page should be accessible to anyone on your website.
 This page will be the main page of your business site.
@@ -33,11 +34,13 @@ the wrong form, it already exists in the database, the password is empty... What
 Finally, you will implement a logout button in the page “index.php”.
 Be sure that a reconnection is impossible after disconnection without a new authentication
 on the server. Have all cookies been deleted?
-2
+
+
 Step 2: Administration interface
 Once connected, your users will have access to an administration page named “admin.php”, if and only if
 they have administrator rights in the database.
 This page will have links to the following features:
+
  Displaying all users.
  Editing a user (with an option to grant them administrator privileges).
  Deleting a user.
@@ -45,11 +48,13 @@ This page will have links to the following features:
  Displaying all products.
  Editing a product.
  Deleting a product.
+
 A product must have the following attributes :
  A name
  A description
  A price
  A picture
+
 Creating a page allowing to see the detail of a product can be a good foundation to the
 creation of the editing page of this product.
 You must handle the errors on the CRUD’s user and product actions.
@@ -57,7 +62,7 @@ Make sure that the navigation within your website is clear and simple. Do functi
 before design for your admin page.
 Check than none of this pages is accessible to a non administrator user. Double check
 the whole security of your website.
-3
+
 Step 3: The shop
 One you finished the administration page you will display all the products on your index page.
 Remember that this page is intended for your customers, it is therefore essential that it
@@ -67,22 +72,23 @@ Don’t forget about SEO.
 Make sure your page is responsive. Does the display work on mobile phone screens ?
 Check the loading time of your page and ask yourself how to speed it up. Does it make
 sense to display a hundred products at once ?
-4
+
 Step 4: Categories
 In this step, you will make it possible to create new categories of products in the administration panel.
 A category can contain both other categories and products. There should be no limit on category level.
 Exemple: a category “furniture” can contains another category “chair” itself containing two categories of
 products, wooden hair and plastic chair.
 Look out for “one to many” database relationships.
-5
+
 Step 5: Search bar
 You must implement a search bar that can look for products by category, price, name, and display the results
 in a dedicated page.
 In addition, your search engine should give the possibility to sort the results (alphabetically, reverse alphabetically,
 increasing price, decreasing price, etc...).
-6
+
 Bonus
 Don’t do any bonuses unless you have successfully implemented all mandatory functionalities.
+
 Bonus Ideas:
  Use of API Facebook/Twitter to sign in.
  History of visited products.
@@ -90,4 +96,4 @@ Bonus Ideas:
  A “share this item” functionality from the product page (by email, facebook, twitter...).
  Possibility to upload an avatar and to display it once connected.
  Whatever you think is relevant :)
-7
+
